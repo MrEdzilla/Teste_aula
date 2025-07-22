@@ -2,6 +2,7 @@ from datetime import date
 
 print("Olá turma do Python!")
 print("Tudo bem!")
+print("Bem-vindos ao programa introdutório!")
 
 nome: str = input("Qual é o seu nome? ")
 nome = nome.upper()
