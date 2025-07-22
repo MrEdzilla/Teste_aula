@@ -9,6 +9,6 @@ print(f"Olá, {nome}!")
 
 idade: int = input("Quantos anos tem? ")
 
-print(f"Olá, {nome}!")
+cidade: str = print("Em que cidade é que mora? ")
 
-print(f"O/A {nome} tem {idade} anos de idade!")
+print(f"O/A {nome} tem {idade} anos de idade, e vive na localidade de {cidade}!")
