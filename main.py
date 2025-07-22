@@ -10,9 +10,13 @@ print(f"Olá, {nome}!")
 
 idade: int = input("Quantos anos tem? ")
 
+ano_atual = date.today().year
+ano_nascimento = ano_atual - idade
+
 cidade: str = print("Em que cidade é que mora? ")
 
 profissao = input("Qual é a sua profissão de sonho? ")
 
-print(f"O/A {nome} tem {idade} anos de idade, e vive na localidade de {cidade}!")
+print(f"O/A {nome} e vive na localidade de {cidade}!")
+print(f"Nasceu no ano de {ano_nascimento} e, como tal, tem {idade} anos de idade!")
 print(f"A profissão de sonho de {nome} é ser {profissao}!")
